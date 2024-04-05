@@ -14,14 +14,10 @@ const Body = () => {
   const renderRightNavbar = () => (
     <div className="left-right-navbar-card">
       <h1 className="body-subheading">Right Navbar Menu</h1>
-      <ul className="right-navbar-list">
-        <li className="right-navbar-item">
+      <div className="right-navbar-list">
           <p>Ad 1</p>
-        </li>
-        <li className="right-navbar-item">
           <p>Ad 2</p>
-        </li>
-      </ul>
+      </div>
     </div>
   )
 
